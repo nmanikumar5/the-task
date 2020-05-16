@@ -1,0 +1,12 @@
+.headerDiv {
+  border-bottom: 13px solid #e92227;
+}
+
+.logo {
+  width: 75px;
+}
+
+.logoutBtnDiv {
+  background: #ffb804;
+  float: right;
+}

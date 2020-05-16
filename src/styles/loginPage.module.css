@@ -1,0 +1,42 @@
+.imageDiv img {
+  width: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.mainDiv {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.iconSpan {
+  height: 30px;
+}
+
+.icon {
+  left: 0;
+  border-radius: 50px;
+  background-color: #e92227;
+  color: white;
+}
+
+.input {
+  padding-left: 42.5px;
+  padding-right: 0;
+}
+
+.buttonIcon {
+  background-color: #e92227;
+  color: white;
+  right: 0;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+
+.button {
+  background-color: #e92227;
+  border-radius: 50px;
+  color: white;
+}

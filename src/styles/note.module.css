@@ -1,0 +1,69 @@
+.noteSuccess {
+  background-color: #ddffdd;
+  width: 200px;
+  min-height: 120px;
+  margin: 10px;
+  padding: 15px 20px;
+  position: relative;
+  background-image: linear-gradient(
+      90deg,
+      transparent 12px,
+      #abced4 13px,
+      #abced4 13px,
+      transparent 12px
+    ),
+    linear-gradient(#bde1bd 0.1px, transparent 2px);
+  background-size: 100% 1.2em;
+  color: #207c20;
+}
+
+.notePending {
+  background-color: #ffcc66;
+  width: 200px;
+  min-height: 120px;
+  margin: 10px;
+  padding: 15px 20px;
+  position: relative;
+  background-image: linear-gradient(
+      90deg,
+      transparent 12px,
+      #abced4 13px,
+      #abced4 13px,
+      transparent 12px
+    ),
+    linear-gradient(#f4c15d 0.1px, transparent 2px);
+  background-size: 100% 1.2em;
+  color: #c44a0f;
+}
+
+.inputDiv {
+  margin: 10px;
+}
+
+.notePending:after {
+  background: linear-gradient(-45deg, #ffffff 16px, transparent 0),
+    linear-gradient(45deg, #ffffff 16px, transparent 0);
+  background-repeat: repeat-x;
+  background-size: 16px 32px;
+  content: " ";
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 20px;
+}
+
+.noteSuccess:after {
+  background: linear-gradient(-45deg, #ffffff 16px, transparent 0),
+    linear-gradient(45deg, #ffffff 16px, transparent 0);
+  background-repeat: repeat-x;
+  background-size: 16px 32px;
+  content: " ";
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 20px;
+}
